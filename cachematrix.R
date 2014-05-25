@@ -1,5 +1,8 @@
 ## the first function stores a matrix and caches its inverse as calculated and passed to by the second function
-## the second function computes newly the inverse, passes it to function 1 and displays it, or (if matrix has not changed) returns the inverse of a matrix when cached in the first function
+## the second function computes newly the inverse, passes it to function 1 and displays it, or (if matrix has not changed and inverse has been calculated before) returns the inverse of a matrix cached in the first function
+
+
+
 
 ## makeCacheMatrix creates the variable x in the function. x can take a random matrix argument
 ##if no arguments are passed to x, m is set to NULL
